@@ -113,27 +113,38 @@ body, html {
 .header {
     background-color: var(--header-bg-color);
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     align-items: center;
     padding: 0 20px;
     height: var(--header-height);
 }
 
 /*Logo*/
+.question {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.question a {
+    color: rgb(255, 255, 255); /* Ensures the link is white */
+    text-decoration: none; /* Removes underline from links */
+    transition: color 0.3s ease; /* Smooth color transition for hover effect */
+}
 .logo {
     font-size: 24px;
     font-weight: bold;
     color: rgb(255, 255, 255);
+    padding-right: 5px;
 }
 
 .logo a {
-    color: rgb(238, 203, 5); /* Ensures the link is white */
+    color: rgb(255, 255, 255); /* Ensures the link is white */
     text-decoration: none; /* Removes underline from links */
     transition: color 0.3s ease; /* Smooth color transition for hover effect */
 }
 
 .logo a:hover, .logo a:focus {
-    color: #e7e7e7; /* Changes color to nav background color on hover/focus */
+    color: #ffffff; /* Changes color to nav background color on hover/focus */
     text-decoration: none; /* Ensures no underline appears on hover/focus */
 }
 
@@ -190,7 +201,7 @@ body, html {
 .category-card:hover {
   transform: translateY(-5px);
   background: linear-gradient(#ffffff, #ffffff) padding-box,
-              linear-gradient(135deg, #770707 0%, rgb(238, 203, 5) 100%) border-box;
+              linear-gradient(135deg, #adadad 0%, rgb(179, 179, 179) 100%) border-box;
   border: 3px solid transparent;
 }
 

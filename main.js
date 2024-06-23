@@ -1,4 +1,4 @@
-var map = L.map('map').setView([51.505, -0.09], 13);
+let map = L.map('map').setView([-77.556, 39.630], 3);
 
     // Load and display tile layer on the map
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -6,9 +6,13 @@ var map = L.map('map').setView([51.505, -0.09], 13);
     }).addTo(map);
 
     // Add a marker to the map at a given location
-    var marker = L.marker([51.5, -0.09]).addTo(map);
+    let marker = L.marker([68.922, 45.904]).addTo(map);
 
-    // Add a circle to the map
+
+
+
+
+    /* Add a circle to the map
     var circle = L.circle([51.508, -0.11], {
         color: 'red',
         fillColor: '#f03',
@@ -32,4 +36,4 @@ var map = L.map('map').setView([51.505, -0.09], 13);
     var popup = L.popup()
         .setLatLng([51.5, -0.09])
         .setContent("I am a standalone popup.")
-        .openOn(map);
+        .openOn(map);*/

@@ -1,12 +1,14 @@
-let map = L.map('map').setView([-77.556, 39.630], 3);
+let map = L.map('map').setView([39.630, -77.556], 5);
 
-    // Load and display tile layer on the map
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
 
-    // Add a marker to the map at a given location
-    let marker = L.marker([68.922, 45.904]).addTo(map);
+// Load and display tile layer on the map
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+// Add a marker to the map at a given location
+//y, x
+let marker = L.marker([45.904, -68.922]).addTo(map);
 
 
 

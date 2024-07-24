@@ -5,12 +5,22 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="real.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 600px;
+            width: 900px;
+        }
+    </style>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 </head>
 <body>
 
     <header class="header">
+        <!--
         <div class="question"><a href="index.html">W</a></div>
-        <div class="logo"><a href="index.html">here's</a><br><div style="transform: translate(-8px, -3px);"><a href="index.html">alter?</a></div></div>
+        <div class="logo"><a href="index.html">here's</a><br><div style="transform: translate(-8px, -3px);"><a href="index.html">alter?</a></div></div>-->
+        <div class="logo"><a href="index.html"><img src="logo.png" width="50px" height="50px"></a></div>
         <nav class="navigation">
             <ul>
                 <li><a href="map.html"><h2>Map</h2></a></li>
@@ -22,6 +32,12 @@
     </header>
 
     <div class="top"><div>Welcome to Where's Walter</div></div>
+    <div class="line"></div>
+    <div class="parent-container">
+        <div id="map">Map</div>
+        <script src="main.js"></script>
+    </div>
+    <div class="line"><div></div></div>
     
 
 </body>

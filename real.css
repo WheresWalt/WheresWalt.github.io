@@ -15,6 +15,11 @@ body, html {
     color: var(--text-color);
 }
 
+.line {
+    border-top: 1px solid black;
+    margin: 20px 40px;
+}
+
 .video-container {
     margin-right: 100px;
     margin-left: 100px;
@@ -135,6 +140,7 @@ body, html {
     font-weight: bold;
     color: rgb(255, 255, 255);
     padding-right: 5px;
+    padding-top: 5px;
 }
 
 .logo a {

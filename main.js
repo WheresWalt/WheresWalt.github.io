@@ -8,6 +8,8 @@ fetch(path)
     // Split the file content by line
     const lines = data.trim().split('\n');
 
+
+
     // Process each line to extract coordinates
     const coordinatesArray = lines.map(line => {
       const [lat, lon] = line.split(',').map(coord => parseFloat(coord.trim()));
@@ -24,7 +26,13 @@ fetch(path)
 
     // Add a marker to the map at the first location
     if (coordinatesArray.length > 0) {
-      L.marker(coordinatesArray[0]).addTo(map);
+      //Add the markers and popups here:
+      let m1 = L.marker([45.904, -68.925]).addto(map);
+      m1.bindPopup("Starting from Mt. Katahdin!");
+
+
+
+
     }
 
     // Add polylines to the map

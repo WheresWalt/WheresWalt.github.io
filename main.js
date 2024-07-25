@@ -27,8 +27,8 @@ fetch(path)
     // Add a marker to the map at the first location
 
     //Add the markers and popups here:
-    L.marker([45.904, -68.925]).addTo(map);
-    //m1.bindPopup("Starting from Mt. Katahdin!");
+    let m1 = L.marker([45.904, -68.925]).addTo(map);
+    m1.bindPopup("Starting from Mt. Katahdin!");
 
 
 

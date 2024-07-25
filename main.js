@@ -25,15 +25,15 @@ fetch(path)
     }).addTo(map);
 
     // Add a marker to the map at the first location
-    if (coordinatesArray.length > 0) {
-      //Add the markers and popups here:
-      L.marker([45.904, -68.925]).addto(map);
-      //m1.bindPopup("Starting from Mt. Katahdin!");
+
+    //Add the markers and popups here:
+    L.marker([45.904, -68.925]).addto(map);
+    //m1.bindPopup("Starting from Mt. Katahdin!");
 
 
 
 
-    }
+    
 
     // Add polylines to the map
     for (let i = 1; i < coordinatesArray.length; i++) {

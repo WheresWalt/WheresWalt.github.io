@@ -136,11 +136,11 @@ body, html {
     transition: color 0.3s ease; /* Smooth color transition for hover effect */
 }
 .logo {
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
     color: rgb(255, 255, 255);
     padding-right: 5px;
-    padding-top: 5px;
+    /*padding-top: 5px;*/
 }
 
 .logo a {

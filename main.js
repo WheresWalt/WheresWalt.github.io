@@ -30,7 +30,7 @@ fetch(path)
     let m1 = L.marker([45.904, -68.925]).addTo(map);
     m1.bindPopup("Starting from Mt. Katahdin!").openPopup();
     let m2 = L.marker([45.352, -69.499]).addTo(map);
-    //m2.bindPopup("8/2/24 Just finished the 100 mile wilderness! After being wet for a week straight I am taking a 0 at Shaws");
+    m2.bindPopup("8/2/24 Just finished the 100 mile wilderness! After being wet for a week straight I am taking a 0 at Shaws");
     //let m3 = L.marker([45.237, -70.001)].addTo(map);
     //m3.bindPopup("After completing Moxie Bald Mountain I took the ferry over the Kennebec river!").openPopup();
 

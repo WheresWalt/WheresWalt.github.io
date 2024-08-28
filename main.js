@@ -47,7 +47,7 @@ fetch(path)
     m9.bindPopup("8/26/24 Today we completed the Wildcat Mountains, which is the first mountain range in the White Mountains! I had beautiful weather and a smooth ride to start the most technical part of my journey.").openPopup();
     let m10 = L.marker([44.328, -71.283]).addTo(map);
     m10.bindPopup("8/28/24 Finished Mt. Madison today! After enjoying a coffee and a bowl of soup at the Madison Spring Hut, I am going to stealth camp and hit the rest of the range tomorrow!").openPopup();
-    
+    //test
 
 
 

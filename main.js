@@ -24,8 +24,6 @@ fetch(path)
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    // Add a marker to the map at the first location
-
     //Add the markers and popups here:
     let m1 = L.marker([45.904, -68.925]).addTo(map);
     m1.bindPopup("7/26/24 Starting from Mt. Katahdin!").openPopup();

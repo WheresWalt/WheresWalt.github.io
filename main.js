@@ -56,7 +56,7 @@ fetch(path)
     let m15 = L.marker([43.222, -72.950]).addTo(map);
     m15.bindPopup("9/15/24 Today I left Little Rock Pond and made it to the Bromley shelter, after climbing Mt. Bromley!");
     let m16 = L.marker([42.616, -73.190]).addTo(map);
-    m16.bindPopup("9/21/24 After seeing the beautiful view from Mt. Greylock I hiked into the town of Dalton where I spent the evening camping at Levardi’s and am taking a bus to do a quick visit home!")
+    m16.bindPopup("9/21/24 After seeing the beautiful view from Mt. Greylock I hiked into the town of Dalton where I spent the evening camping at Levardi’s and am taking a bus to do a quick visit home!");
     
 
 

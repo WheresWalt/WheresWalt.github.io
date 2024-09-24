@@ -50,13 +50,13 @@ fetch(path)
     let m12 = L.marker([44.139, -71.703]).addTo(map);
     m12.bindPopup("8/30/24 I continued my way through the White Mountains and after pushing through day hikers all day long, I finally completed Franconia Range leaving just 2 ranges left for the Whites!").openPopup();
     let m13 = L.marker([44.033, -71.881]).addTo(map);
-    m13.bindPopup("8/31/24 Today I slacked packed through the Kingsman Range of the White mountains with beautiful weather and even better views");
+    m13.bindPopup("8/31/24 Today I slacked packed through the Kingsman Range of the White mountains with beautiful weather and even better views").openPopup();
     let m14 = L.marker([43.997, -71.889]).addTo(map);
-    m14.bindPopup("9/1/24 Today I finished the White Mountains by climbing Mt. Moosilauke!");
+    m14.bindPopup("9/1/24 Today I finished the White Mountains by climbing Mt. Moosilauke!").openPopup();
     let m15 = L.marker([43.222, -72.950]).addTo(map);
-    m15.bindPopup("9/15/24 Today I left Little Rock Pond and made it to the Bromley shelter, after climbing Mt. Bromley!");
+    m15.bindPopup("9/15/24 Today I left Little Rock Pond and made it to the Bromley shelter, after climbing Mt. Bromley!").openPopup();
     let m16 = L.marker([42.616, -73.190]).addTo(map);
-    m16.bindPopup("9/21/24 After seeing the beautiful view from Mt. Greylock I hiked into the town of Dalton where I spent the evening camping at Levardi’s and am taking a bus to do a quick visit home!");
+    m16.bindPopup("9/21/24 After seeing the beautiful view from Mt. Greylock I hiked into the town of Dalton where I spent the evening camping at Levardi’s and am taking a bus to do a quick visit home!").openPopup();
     
 
 

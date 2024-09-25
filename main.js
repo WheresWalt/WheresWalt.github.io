@@ -77,10 +77,16 @@ fetch(blog)
     const blogs = data.trim().split('\n');
     const blogList = document.getElementById('blog-list');
 
-    blogs.forEach(blog => {
+    for (let i = 0; i < blogs.length; i++) {
+      blogList.innerHTML = blogs[i];
+    } 
+
+
+    blogs.forEach(blogs => {
       const listItem = document.createElement('li');
-      listItem.textContent = blog;
+      listItem.textContent = blogs;
       blogList.appendChild(listItem);
+      
     });
   })
   .catch(error => console.error('Error fetching the file:', error));

@@ -84,6 +84,10 @@ body, html {
     font-size: 18px;
 }
 
+.blog ul {
+    margin-top: 40px;
+}
+
 .title div {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     font-size: 20px;

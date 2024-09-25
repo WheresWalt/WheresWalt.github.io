@@ -78,7 +78,7 @@ fetch(blog)
     const blogList = document.getElementById('blog-list');
     const recent = document.getElementById('recent');
     const recentPost = document.createElement('li');
-    recentPost.textContent = blogs[blogs.length - 1];
+    recentPost.textContent = blogs[0];
     recent.appendChild(recentPost);
 
     blogs.forEach(b => {

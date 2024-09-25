@@ -76,8 +76,6 @@ fetch(blog)
   .then(data => {
     const blogs = data.trim().split('\n');
     const blogList = document.getElementById('blog-list');
-
-
     blogs.forEach(b => {
       const listItem = document.createElement('li');
       listItem.textContent = b;

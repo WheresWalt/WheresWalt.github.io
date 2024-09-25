@@ -1,6 +1,6 @@
 
 const path = 'coord.csv';
-  
+const blog = 'blog.csv';
 // Fetch the CSV file
 fetch(path)
   .then(response => response.text())
@@ -68,5 +68,13 @@ fetch(path)
     for (let i = 1; i < coordinatesArray.length; i++) {
       L.polyline([coordinatesArray[i-1], coordinatesArray[i]]).addTo(map);
     }
+  })
+  .catch(error => console.error('Error fetching the file:', error));
+
+fetch(blog)
+  .then(response => response.text())
+  .then(data => {
+    const blogs = data.trim().split('\n');
+    
   })
   .catch(error => console.error('Error fetching the file:', error));

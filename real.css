@@ -85,7 +85,8 @@ body, html {
 }
 
 .blog ul {
-    margin-top: 40px;
+    margin-top: 0px;
+    padding-top: 20px;
 }
 
 .title div {

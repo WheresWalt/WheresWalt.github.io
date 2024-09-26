@@ -90,7 +90,7 @@ fetch(blog)
   try {
       const image = document.getElementById('image');
       const blogImage = document.createElement('img');
-      blogImage.src = `photos/${index + 1}.jpg`; // Assuming the images are named 1.jpg, 2.jpg, etc.
+      blogImage.src = `photos/1.jpg`; // Assuming the images are named 1.jpg, 2.jpg, etc.
       blogImage.alt = `Image for blog ${index + 1}`;
       blogImage.style.width = '150px'; // Adjust the width as needed
       blogImage.style.height = 'auto';

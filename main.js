@@ -1,6 +1,7 @@
 
 const path = 'coord.csv';
 const blog = 'blog.csv';
+
 // Fetch the CSV file
 fetch(path)
   .then(response => response.text())
@@ -81,6 +82,16 @@ fetch(blog)
     blogs.forEach(b => {
       const listItem = document.createElement('li');
       listItem.textContent = b;
+
+      const blogImage = document.createElement('img');
+      blogImage.src = `photos/${index + 1}.jpg`; // Assuming the images are named 1.jpg, 2.jpg, etc.
+      blogImage.alt = `Image for blog ${index + 1}`;
+      blogImage.style.width = '150px'; // Adjust the width as needed
+      blogImage.style.height = 'auto'
+      // Append the image to the list item
+      listItem.appendChild(blogImage);
+
+
       blogList.appendChild(listItem);
     });
   })
@@ -93,6 +104,7 @@ fetch(blog)
     const recent = document.getElementById('recent');  
     const recentPost = document.createElement('li');
     recentPost.textContent = blogs[blogs.length - 1];
+    
     recent.appendChild(recentPost);
     
   })

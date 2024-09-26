@@ -82,21 +82,24 @@ fetch(blog)
     blogs.forEach(b => {
       const listItem = document.createElement('li');
       listItem.textContent = b;
-
-      const blogImage = document.createElement('img');
-      blogImage.src = `photos/${index + 1}.jpg`; // Assuming the images are named 1.jpg, 2.jpg, etc.
-      blogImage.alt = `Image for blog ${index + 1}`;
-      blogImage.style.width = '150px'; // Adjust the width as needed
-      blogImage.style.height = 'auto'
-      // Append the image to the list item
-      //listItem.appendChild(blogImage);
-
-
       blogList.appendChild(listItem);
     });
   })
   .catch(error => console.error('Error fetching the file:', error));
 
+  try {
+      const image = document.getElementById('image');
+      const blogImage = document.createElement('img');
+      blogImage.src = `photos/${index + 1}.jpg`; // Assuming the images are named 1.jpg, 2.jpg, etc.
+      blogImage.alt = `Image for blog ${index + 1}`;
+      blogImage.style.width = '150px'; // Adjust the width as needed
+      blogImage.style.height = 'auto';
+      image.appendChild(blogImage);
+
+  }
+  catch (error) {
+    console.error('Error fetching the file:', error);
+  }
 
 
   fetch(blog)

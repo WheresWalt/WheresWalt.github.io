@@ -1,6 +1,7 @@
 
 const path = 'coord.csv';
 const blog = 'blog.csv';
+const photoNum = 3;
 
 // Fetch the CSV file
 fetch(path)
@@ -87,19 +88,16 @@ fetch(blog)
   })
   .catch(error => console.error('Error fetching the file:', error));
 
-  try {
-      const image = document.getElementById('image');
-      const blogImage = document.createElement('img');
-      blogImage.src = `photos/1.jpg`; // Assuming the images are named 1.jpg, 2.jpg, etc.
-      blogImage.alt = `Image for blog ${index + 1}`;
-      blogImage.style.width = '150px'; // Adjust the width as needed
-      blogImage.style.height = 'auto';
-      image.appendChild(blogImage);
-
+  for (let index = 1; index <= photoNum; index++) {
+    const image = document.getElementById('image');
+    const blogImage = document.createElement('img');
+    blogImage.src = `photos/${index}.jpg`;
+    blogImage.alt = `Image for blog ${index}`;
+    blogImage.style.width = 'auto';
+    blogImage.style.height = 'auto';
+    image.appendChild(blogImage);
   }
-  catch (error) {
-    console.error('Error fetching the file:', error);
-  }
+  
 
 
   fetch(blog)

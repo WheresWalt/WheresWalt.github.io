@@ -46,6 +46,14 @@ body, html {
     height: 100%;
 }
 
+#image {
+    display: flex;
+    flex-wrap: wrap; /* This will wrap the images if they exceed the container's width */
+    gap: 10px; /* Adds spacing between images */
+    align-items: center;
+    justify-content: center;
+}
+
 .top div {
     margin-top: 30px;
     align-items: center;

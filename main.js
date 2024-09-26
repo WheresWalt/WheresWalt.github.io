@@ -88,17 +88,6 @@ fetch(blog)
   })
   .catch(error => console.error('Error fetching the file:', error));
 
-  for (let index = 1; index <= photoNum; index++) {
-    const image = document.getElementById('image');
-    const blogImage = document.createElement('img');
-    blogImage.src = `photos/${index}.jpg`;
-    blogImage.alt = `Image for blog ${index}`;
-    blogImage.style.width = 'auto';
-    blogImage.style.height = 'auto';
-    image.appendChild(blogImage);
-  }
-  
-
 
   fetch(blog)
   .then(response => response.text())
@@ -112,3 +101,16 @@ fetch(blog)
     
   })
   .catch(error => console.error('Error fetching the file:', error));
+
+  for (let index = 1; index <= photoNum; index++) {
+    const image = document.getElementById('image');
+    const blogImage = document.createElement('img');
+    blogImage.src = `photos/${index}.jpg`;
+    blogImage.alt = `Image for blog ${index}`;
+    blogImage.style.width = 'auto';
+    blogImage.style.height = 'auto';
+    image.appendChild(blogImage);
+  }
+  
+
+

@@ -89,13 +89,15 @@ fetch(blog)
       blogImage.style.width = '150px'; // Adjust the width as needed
       blogImage.style.height = 'auto'
       // Append the image to the list item
-      listItem.appendChild(blogImage);
+      //listItem.appendChild(blogImage);
 
 
       blogList.appendChild(listItem);
     });
   })
   .catch(error => console.error('Error fetching the file:', error));
+
+
 
   fetch(blog)
   .then(response => response.text())

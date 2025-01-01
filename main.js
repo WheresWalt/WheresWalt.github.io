@@ -59,11 +59,52 @@ fetch(path)
     m15.bindPopup("9/15/24 Today I left Little Rock Pond and made it to the Bromley shelter, after climbing Mt. Bromley!").openPopup();
     let m16 = L.marker([42.616, -73.190]).addTo(map);
     m16.bindPopup("9/21/24 After seeing the beautiful view from Mt. Greylock I hiked into the town of Dalton where I spent the evening camping at Levardi’s and am taking a bus to do a quick visit home!").openPopup();
-    
-
-
-
-
+    let m17 = L.marker([42.289, -73.181]).addTo(map);
+    m17.bindPopup("9/24/24 Today I started out alone and began the journey to catch up to my tramily. I spent the night at Full Goose Pond cabin, where I slept in a bunk and ate a pancake breakfast!").openPopup();
+    let m18 = L.marker([41.939262, -73.358894]).addTo(map);
+    m18.bindPopup("9/27/24 I reached the 700 mile marker where I stopped at the Mountain Side Cafe for a coffee and a burger.").openPopup();
+    let m19 = L.marker([41.675087, -72.507057]).addTo(map);
+    m19.bindPopup("9/29/24 Stopped for a quick resupply at Bulls Bridge Market.").openPopup();
+    let m20 = L.marker([41.474490, -73.822070]).addTo(map);
+    m20.bindPopup("10/1/24 I spent the night at Canopus Lake Beach Shelter. Unfortunately everything was closed this late in the season.").openPopup();
+    let m21 = L.marker([41.313061, -73.990356]).addTo(map);
+    m21.bindPopup("10/3/24 Today I crossed the Hudson River and climbed Bear Mountain where I saw the trailside zoo and spent the night at West Mountain Shelter over looking NYC!").openPopup();
+    let m22 = L.marker([41.222599, -74.294296]).addTo(map);
+    m22.bindPopup("10/6/24 Resupplied in Green Wood Lake where I got a sub from the Country Grocery.").openPopup();
+    let m23 = L.marker([41.315804, -74.657234]).addTo(map);
+    m23.bindPopup("10/8/24 I stayed at the Highpoint Shelter where I met a section hiker named Gobbler and spent the evening trying to stay warm in the shelter.").openPopup();
+    let m24 = L.marker([41.060760, -74.959122]).addTo(map);
+    m24.bindPopup("10/11/24 Crossed the Beaver Pond outlet where I saw lots of wild life and took in the view of the water.").openPopup();
+    let m25 = L.marker([40.978661, -75.136238]).addTo(map);
+    m25.bindPopup("10/15/24 Today I crossed the Delaware River into PA and met up with another thru hiker named Bones.").openPopup();
+    let m26 = L.marker([40.826, -75.690]).addTo(map);
+    m26.bindPopup("10/18/24 We stayed at the Breezy Acres Hostel with Mary Poppins who treated us very well, helped us resupply, and dropped us off at the trail head! I highly recommend stopping by.").openPopup();
+    let m27 = L.marker([40.707713, -75.804818]).addTo(map);
+    m27.bindPopup("10/20/24 I arrived at the Lookout Hostel, where I finally caught up to Sherpa and the tramily for a wonderful reunion.").openPopup();
+    let m28 = L.marker([40.574497, -76.020073]).addTo(map);
+    m28.bindPopup("10/22/24 I passed through Port Clinton as we make our way through PA. There are a lot more hunters on the trail than I had imagined.").openPopup();
+    let m29 = L.marker([40.513237, -76.346466]).addTo(map);
+    m29.bindPopup("10/25/24 I stayed at the 501 shelter after completing 1,000 miles!").openPopup();
+    let m30 = L.marker([40.400269, -77.009583]).addTo(map);
+    m30.bindPopup("10/27/24 I crossed the Susquehanna River and enjoyed a sunrise as I crossed the bridge.").openPopup();
+    let m31 = L.marker([40.075703, -77.195877]).addTo(map);
+    m31.bindPopup("10/29/24 I stopped at the Green Mountain General Store for the half gallon challenge, which is definitely a challenge for the summer since we were freezing. I completed it in 40 mins.").openPopup();
+    let m32 = L.marker([39.673370, -77.529554]).addTo(map);
+    m32.bindPopup("10/31/24 I crossed the state line into MD which is my home state! It was also interesting seeing the smoldering remains for the recent wild fire.").openPopup();
+    let m33 = L.marker([39.323044, -77.730537]).addTo(map);
+    m33.bindPopup("11/2/24 We crossed into Harpers Ferry where we stayed with the Yellow Deli for 2 night...it was an interesting experience.").openPopup();
+    let m34 = L.marker([39.187939, -77.797997]).addTo(map);
+    m34.bindPopup("11/4/24 Sherpa and I stayed at the Black Burn trail center where we had a wood stove to keep us warm and fresh fruit we had packed out.").openPopup();
+    let m35 = L.marker([39.051952, -77.941635]).addTo(map);
+    m35.bindPopup("11/6/24 We finished the roller coaster in one day! We were very sore and tired after we got in late at night, but it was a fun challenge!").openPopup();
+    let m36 = L.marker([38.845959, -78.161349]).addTo(map);
+    m36.bindPopup("11/8/24 Today we started the 100 mile journey through the Shenandoah Mountains and saw a bear!").openPopup();
+    let m37 = L.marker([38.035954, -78.857086]).addTo(map);
+    m37.bindPopup("11/13/24 We finished the Shenandoah Mountain range today, which were some of the best views we had seen since the White Mountains.").openPopup();
+    let m38 = L.marker([37.817730, -79.070457]).addTo(map);
+    m38.bindPopup("11/15/24 Today Sherpa and I climbed the Priest going SOBO where it was a 3,000ft ascent over 5 miles, which is very fun...and the confessional was a very entertaining read.").openPopup();
+    let m39 = L.marker([37.633095, -79.451546]).addTo(map);
+    m39.bindPopup("11/21/24 After all of that, we wrapped up the 2024 season by heading into Glasgow to stay at Stanimals hostel. It's incredibly bitter sweet and I am devistated that I didn't get to finish this year due to the hurricance, but that just means I get to do it all again! Peace and Love -Heisenberg").openPopup();
     
 
     // Add polylines to the map
